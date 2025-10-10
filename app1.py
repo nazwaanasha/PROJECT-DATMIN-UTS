@@ -190,3 +190,49 @@ if uploaded_file:
         - Cluster 1: **Kesiapan sedang**  
         - Cluster 2: **Kesiapan tinggi**  
         """)
+
+
+import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import plotly.graph_objects as go
+
+# Page configuration
+st.set_page_config(
+    page_title="Clustered Research Readiness for Students",
+    page_icon="🎓",
+    layout="wide"
+)
+
+# Custom CSS
+st.markdown("""
+    <style>
+    .main-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+        color: #2563eb;
+        margin-bottom: 1rem;
+    }
+    .subtitle {
+        text-align: center;
+        color: #64748b;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+    .cluster-card {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+        color: white;
+        margin: 1rem 0;
+    }
+    .metric-card {
+        background: #f8fafc;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-left: 4px solid #2563eb;
+    }
+    </style>
+""", unsafe_allow_html=True)
