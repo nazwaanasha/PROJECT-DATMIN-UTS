@@ -45,6 +45,9 @@ Aplikasi ini dibangun menggunakan Streamlit, sehingga dapat dijalankan secara in
 - Klik “Unggah Data Survei (.csv)” di sidebar kiri.
 - Format disarankan: CSV dengan kolom berisi nilai skala Likert (1–5).
 
+📸 **Ilustrasi:**
+![Langkah 1 - Uplaod Dataset](screenshots/1_homepage.png)
+
 ---
 2️⃣ Pratinjau Data
 
@@ -54,6 +57,9 @@ Setelah upload dataset, aplikasi akan menampilkan:
 - Total missing values
 
 Tabel pratinjau (10 baris pertama) akan muncul.
+
+📸 **Ilustrasi:**
+![Langkah 2 - Partinjau Dataset](screenshots/2_input_file.png)
 
 ---
 
@@ -76,6 +82,9 @@ Hasil yang akan muncul:
 - Analisis Outlier dan Visualisasinya: Distribusi Sebelum & Sesudah Winsorizing
 - Statistik Kolom Sebelum & Sesudah Preprocessing
 
+📸 **Ilustrasi:**
+![Langkah 3 - Preprocessing](screenshots/3_hasil_preprocessing1.png)
+
 ---
 
 4️⃣ Auto-Rekomendasi Parameter
@@ -86,6 +95,9 @@ Klik "🔍 Cari Parameter Optimal" maka Aplikasi akan mencari:
 - Jumlah cluster optimal (Hierarchical)
 
 Hasil berupa grafik Elbow, Silhouette, dan nilai parameter terbaik.
+
+📸 **Ilustrasi:**
+![Langkah 4 - Parameter](screenshots/6_parameter.png)
 
 ---
 
@@ -110,4 +122,8 @@ Hasil analisis mencakup:
 - Rekomendasi Strategis untuk Kampus
 - Hasil Akhir : dapat mengunduh hasil clustering dalam bentuk csv atau txt
 
+📸 **Ilustrasi:**
+![Langkah 5 - Clustering](screenshots/7_kmeans-1.png)
+
 ---
+
