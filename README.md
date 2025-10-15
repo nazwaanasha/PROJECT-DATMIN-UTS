@@ -49,7 +49,7 @@ Aplikasi ini dibangun menggunakan Streamlit, sehingga dapat dijalankan secara in
 ![Langkah 1 - Uplaod Dataset](screenshots/1_homepage.png)
 
 ---
-2️⃣ Pratinjau Data
+## 2️⃣ Pratinjau Data
 
 Setelah upload dataset, aplikasi akan menampilkan:
 - Total responden
@@ -63,7 +63,7 @@ Tabel pratinjau (10 baris pertama) akan muncul.
 
 ---
 
-3️⃣ Opsi Preprocessing Data
+## 3️⃣ Opsi Preprocessing Data
 
 Di bagian sidebar terdapat Pembersihan dan Outlier, yang terdiri dari :
 - Metode Missing Value (Numerik) -> mean/median
@@ -87,7 +87,7 @@ Hasil yang akan muncul:
 
 ---
 
-4️⃣ Auto-Rekomendasi Parameter
+## 4️⃣ Auto-Rekomendasi Parameter
 
 Klik "🔍 Cari Parameter Optimal" maka Aplikasi akan mencari:
 - K optimal (K-Means)
@@ -101,7 +101,7 @@ Hasil berupa grafik Elbow, Silhouette, dan nilai parameter terbaik.
 
 ---
 
-5️⃣ Jalankan Clustering
+## 5️⃣ Jalankan Clustering
 
 Pilih algoritma di sidebar:
 - K-Means
@@ -126,4 +126,5 @@ Hasil analisis mencakup:
 ![Langkah 5 - Clustering](screenshots/7_kmeans-1.png)
 
 ---
+
 
