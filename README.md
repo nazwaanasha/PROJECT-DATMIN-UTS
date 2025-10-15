@@ -84,6 +84,9 @@ Hasil yang akan muncul:
 
 📸 **Ilustrasi:**
 ![Langkah 3 - Preprocessing](screenshots/3_hasil_preprocessing1.png)
+![Clastering](screenshots/4_hasil_preprocessing2.png)
+![Clastering](screenshots/5_hasil_preprocessing3.png)
+
 
 ---
 
@@ -124,7 +127,12 @@ Hasil analisis mencakup:
 
 📸 **Ilustrasi:**
 ![Langkah 5 - Clustering](screenshots/7_kmeans-1.png)
+![Clastering](screenshots/8_kmeans-2.png)
+![Clastering](screenshots/9_kmeans_3.png)
+![Clastering](screenshots/10_kmeans-4.png)
+![Clastering](screenshots/11_kmeans-5.png)
 
 ---
+
 
 
