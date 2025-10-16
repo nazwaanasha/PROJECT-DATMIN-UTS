@@ -65,19 +65,19 @@ Tabel pratinjau (10 baris pertama) akan muncul.
 
 ## 3️⃣ Opsi Preprocessing Data
 
-Di bagian sidebar terdapat Pembersihan dan Outlier, yang terdiri dari :
+Sebelum melakukan Preprocessing data, pada bagian sidebar terdapat Pembersihan dan Outlier, yang terdiri dari :
 - Metode Missing Value (Numerik) -> mean/median
 - Metode Missing Value (Kategorik) -> mode/constant
 - Tangani Outlier (Winsorize) -> Batas Quantile Outlier
 
-Dan pada bagian sidebar terdapat Transformasi & Reduksi Dimensi, yang terdiri dari :
+Dan pada bagian sidebar juga terdapat Transformasi & Reduksi Dimensi, yang terdiri dari :
 - Metode Scaling Fitur -> standard/minmax
 - Gunaakan PCA untuk Reduksi Dimensi
 - Jumlah Komponen PCA
   
-Untuk melakukan Preprocessing Data, klik tombol : 🚀 Jalankan Preprocessing
+Untuk melakukan Preprocessing Data, klik tombol : **🚀 Jalankan Preprocessing**
 
-Hasil yang akan muncul:
+Preprocessing akan menampilkan :
 
 - Analisis Outlier dan Visualisasinya: Distribusi Sebelum & Sesudah Winsorizing
 - Statistik Kolom Sebelum & Sesudah Preprocessing
@@ -104,9 +104,9 @@ Hasil berupa grafik Elbow, Silhouette, dan nilai parameter terbaik.
 
 ---
 
-## 5️⃣ Jalankan Clustering
+## 5️⃣ Opsi Clustering
 
-Pilih algoritma di sidebar:
+Pada bagian sidebar pilih metode Clustering yang akan dijalankan :
 - K-Means
 
 - Hierarchical (Divisive)
@@ -114,9 +114,9 @@ Pilih algoritma di sidebar:
 - DBSCAN
 
 Atur parameternya → (Otomatis sesuai dengan Parameter Optimal) lalu klik
-"🧠 Jalankan Clustering" untuk melakukan Clustering
+**"🧠 Jalankan Clustering"** untuk melakukan Clustering
 
-Hasil analisis mencakup:
+Hasil Analisis Clustering mencakup:
 - Metrik Evaluasi Clustering
 - Interpretasi Otomatis Cluster
 - Ringkasan Aspek per Cluster
@@ -133,6 +133,7 @@ Hasil analisis mencakup:
 ![Clastering](screenshots/11_kmeans-5.png)
 
 ---
+
 
 
 
