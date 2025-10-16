@@ -1,8 +1,5 @@
-🚀 Cara Menjalankan:
-Install dependencies:
-
-pip install -r requirements.txt
-Jalankan aplikasi:
-
-streamlit run app.py
-Buka browser di http://localhost:8501
+streamlit
+pandas 
+numpy 
+plotly
+typing
